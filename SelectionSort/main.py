@@ -3,6 +3,7 @@ def swap(list_name, i, j):
     list_name[i], list_name[j] = list_name[j], list_name[i]
 
 
+# suppose we want ascending ordered list
 def selectionSort(list_name):
     for size in reversed(range(len(list_name))):
         maxValueIndex = 0

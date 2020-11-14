@@ -23,7 +23,7 @@ example3 = [11, 9, 2, 0, 5, 6, 1, 8, 10, 3, 7, 4, 12]
 result3 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 example4 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-result4 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+result4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 # if it returns False, it raises Assertion Error

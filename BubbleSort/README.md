@@ -11,6 +11,7 @@ Bubble sort a.k.a. sinking sort is kind of sorting algorithm that repeatedly com
 _NOTE: Suppose we want ascending ordered data_
 
 ### Average
+It's O(n^2) by Big O notation on average
    
 ### Best Case
 When the given data are in a ascending order, it's O(n) by Big O notation  

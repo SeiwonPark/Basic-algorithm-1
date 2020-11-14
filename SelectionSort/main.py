@@ -3,12 +3,13 @@ def swap(list_name, i, j):
     list_name[i], list_name[j] = list_name[j], list_name[i]
 
 
-# suppose we want ascending ordered list
-def bubbleSort(list_name):
+def selectionSort(list_name):
     for size in reversed(range(len(list_name))):
-        for i in range(size):
-            if list_name[i] > list_name[i + 1]:
-                swap(list_name, i, i + 1)
+        maxValueIndex = 0
+        for i in range(1, size + 1):
+            if list_name[i] > list_name[maxValueIndex]:
+                maxValueIndex = i
+            swap(list_name, maxValueIndex, size)
     return list_name
 
 
@@ -29,7 +30,7 @@ result4 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 # if it returns False, it raises Assertion Error
 # if it returns True, nothing happens
 if __name__ == "__main__":
-    assert bubbleSort(example1) == result1
-    assert bubbleSort(example2) == result2
-    assert bubbleSort(example3) == result3
-    assert bubbleSort(example4) == result4
+    assert selectionSort(example1) == result1
+    assert selectionSort(example2) == result2
+    assert selectionSort(example3) == result3
+    assert selectionSort(example4) == result4

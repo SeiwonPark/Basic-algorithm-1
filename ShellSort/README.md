@@ -1,8 +1,8 @@
-# Insertion Sort   
+# Shell Sort   
 
 **ABSTRACT**
 
-Insertion sort   
+Shell sort   
 
 ## 1. Algorithm   
 

@@ -13,7 +13,7 @@ def binarySearch(arr, value):
         return False
 
 
-# or just simply,
+# or just simply, if you're doing Linear Search you can implement like this:
 # def binarySearch(arr, value):
 #     if value in arr:    # and in this case, arr doesn't need to be ordered already
 #         return True

@@ -10,7 +10,10 @@ Being balanced means that height of the left sub-tree and height of the right su
 ## Table of Contents   
 + [1. Algorithm](#1-algorithm)
    + [1.1 AVL Rotations](#11-avl-rotations)
-      + [1.1.1 Single Rotation - Left Rotation]
+      + [1.1.1 Single Rotation - Left Rotation](#111-single-rotation---left-rotation-aka-rrright-right-case)
+      + [1.1.2 Single Rotation - Right Rotation](#112-single-rotation---right-rotation-aka-llleft-left-case)
+      + [1.1.3 Double Rotation - Left-Right Rotation](#113-double-rotation---left-right-rotation-aka-lrleft-right-case)
+      + [1.1.4 Double Rotation - Right-Left Rotation](#114-double-rotation---right-left-rotation-aka-rlright-left-case)
 + [2. Time Complexity](#2-time-complexity)
 <br/>   
 
@@ -24,6 +27,10 @@ And we call it balanced only when BF is not more than **1**(so it can have follo
 ### 1.1 AVL Rotations      
 
 _**NOTE**: In this AVL algorithm, you need to make sure what each term means. Please refer to [this page](https://en.wikipedia.org/wiki/Tree_rotation)._    
+
+<img width="700" src="https://github.com/SeiwonPark/Basic-algorithm-1/blob/main/AVL/images/cases.png">   
+
+You can see what each term represents in the picture above.   
 
 #### 1.1.1 Single Rotation - _Left Rotation_ `a.k.a. RR(Right Right Case)`    
 When a new node is instered in 
